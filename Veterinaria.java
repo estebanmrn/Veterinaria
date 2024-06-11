@@ -23,9 +23,9 @@ public void mostrarMascotas (){
         }
     }
     }
-}
-
-
-
     
+    public List<Mascota> getMascotas (){
+        return mascotas;
+    }
 
+}//End class
